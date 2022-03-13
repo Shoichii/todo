@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 200px;
+    width: 40%;
+    max-width: 600px;
+}
+
+.title {
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: rgb(105, 30, 155);
+    color: #fff;
+    border: 5px solid rgb(65, 10, 102);
+    border-radius: 10px;
+    font-weight: bold;
+    outline:none;
+}
+
+.title::placeholder {
+    color:rgba(255, 255, 255, 0.3);
+}
+
+.description {
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: rgb(105, 30, 155);
+    color: #fff;
+    border: 5px solid rgb(65, 10, 102);
+    border-radius: 10px;
+    outline:none;
+}
+
+.description::placeholder {
+    color:rgba(255, 255, 255, 0.3);
+}
+
+.error {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}

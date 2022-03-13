@@ -1,0 +1,14 @@
+.main {
+    margin: 0 auto;
+    background: rgb(131,58,180);
+    background: linear-gradient(221deg, rgba(131,58,180,1) 0%, rgba(170,49,132,1) 1%, rgba(253,29,29,1) 35%, rgba(252,176,69,1) 100%);
+    border: 5px solid rgb(105, 30, 155);
+    border-radius: 50px;
+    color:rgb(71, 0, 119);
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main:hover {
+    box-shadow: 0 0 0px rgba(0,0,0,0.0);
+}
